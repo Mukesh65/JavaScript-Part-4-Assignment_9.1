@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		// Constructor function for Person objects
+		function me(MyName, MyHight, AboutMySelf){
+			this.MyName = MyName;
+			this.MyHight = MyHight;
+			this.AboutMySelf = AboutMySelf;
+		}
+
+		// Create a Person object
+		var createObj = new me("Mukesh", "185cm", "I'm student");
+		
+		//display
+		console.log("I'm " + createObj.MyName + ". " + "I'm " + createObj.MyHight + " height.");
+	</script>
+</body>
+</html>
